@@ -1,0 +1,273 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+:root {
+    --color: #ff0000;
+
+
+}
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #6ca87b;
+    padding: 20px;
+}
+
+.hero .container {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.hero-text span {
+    color: red;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: red;
+}
+
+/* Hero Image */
+.hero-img img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 4px solid #333;
+    filter: drop-shadow(var(--color) 0 0 25px);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
+.identitas {
+    background: #6ca87b;
+    padding: 50px 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.identitas h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+/* Layout identitas */
+.identitas .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+/* Layout identitas */
+
+.identitas .container .identity-info {
+    flex: 2;
+    max-width: 600px;
+}
+
+.identity-info ul {
+    padding: 0;
+    list-style: none;
+}
+
+.identity-info ul li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    background: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+
+#contact {
+    background-color: #6ca87b;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contact-info {
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.contact-info ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 5px;
+    color: #333;
+}
+
+.contact-info ul li i {
+    margin-right: 15px;
+    color: #000000;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #6ca87b;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.projek {
+  padding: 8rem 9%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.projek h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.projek-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: #6ca87b;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px var(--main-color);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.projek-text {
+  flex: 1 1 500px;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.projek-frame iframe {
+  border-radius: 1rem;
+}
